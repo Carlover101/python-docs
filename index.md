@@ -1,5 +1,17 @@
 # Python Documentation
 
+#### Index:
+[Data Types:](https://carlover101.github.io/python-docs#data-types)
+- [Strings](https://carlover101.github.io/python-docs#strings)
+- [Integers](https://carlover101.github.io/python-docs#integers)
+- [Floats](https://carlover101.github.io/python-docs#floats)
+- [Lists](https://carlover101.github.io/python-docs#lists)
+
+[Variables:](https://carlover101.github.io/python-docs#variables)
+
+[Conditional Statements:](https://carlover101.github.io/python-docs#conditional-statements)
+- [If, Else Statements](https://carlover101.github.io/python-docs#if-else-statements)
+- [Try and Except Statements](https://carlover101.github.io/python-docs#try-and-except-statements)
 ## Data Types:
 
 ### Strings:
@@ -127,7 +139,7 @@
 
 - This example uses the string combining feature to take the two variables and combine them into one, and then print it.
 
-## Conditionals:
+## Conditional Statements:
 
 ### If, Else Statements:
 
@@ -169,7 +181,7 @@
   - This gives the coder the ability to have several things checked before ending the if, else statement.
   - The elif statement can be used as many times as necessary.
 
-### Try and Except:
+### Try and Except Statements:
 
 - The try and except statement is used to attempt to run a piece of code, and if it doesn't work, do something else.
 
