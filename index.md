@@ -1,17 +1,21 @@
 # Python Documentation
 
 #### Index:
-[Data Types:](https://carlover101.github.io/python-docs#data-types)
-- [Strings](https://carlover101.github.io/python-docs#strings)
-- [Integers](https://carlover101.github.io/python-docs#integers)
-- [Floats](https://carlover101.github.io/python-docs#floats)
-- [Lists](https://carlover101.github.io/python-docs#lists)
+[Data Types:](https://carlover101.github.io/python-docs/#data-types)
+- [Strings](https://carlover101.github.io/python-docs/#strings)
+- [Integers](https://carlover101.github.io/python-docs/#integers)
+- [Floats](https://carlover101.github.io/python-docs/#floats)
+- [Lists](https://carlover101.github.io/python-docs/#lists)
 
-[Variables:](https://carlover101.github.io/python-docs#variables)
+[Variables:](https://carlover101.github.io/python-docs/#variables)
 
-[Conditional Statements:](https://carlover101.github.io/python-docs#conditional-statements)
-- [If, Else Statements](https://carlover101.github.io/python-docs#if-else-statements)
-- [Try and Except Statements](https://carlover101.github.io/python-docs#try-and-except-statements)
+[Conditional Statements:](https://carlover101.github.io/python-docs/#conditional-statements)
+- [If, Else Statements](https://carlover101.github.io/pgython-docs/#if-else-statements)
+- [Try and Except Statements](https://carlover101.github.io/python-docs/#try-and-except-statements)
+
+[Loops:](https://carlover101.github.io/python-docs/#loops)
+- [While Loops](https://carlover101.github.io/python-docs/#while-loops)
+- [For Loops](https://carlover101.github.io/python-docs/#for-loops)
 ## Data Types:
 
 ### Strings:
@@ -220,3 +224,39 @@
 
   - Finally is used at the end as the finishing statement to say, if nothing else works, do this.
 
+## Loops:
+
+- A loop is a function in python that run the same piece of code more than once in the same spot.
+
+### While Loops:
+
+- A while loop is used to run the same peice of code as many times as something is true.
+
+##### Example 1:
+
+```
+  while True:
+    print("This is true!!!!")
+```
+- This example uses the version of the while loop often known as the "forever loop" because it will coninue to run indefintely unless told otherwise.
+
+##### Example 2:
+
+```
+  a = 10
+
+  while a >= 1:
+    a = a - 1
+    print("a is greater than 0")
+```
+
+- In this example, the while loop is used to print that the variable *a* is greater than 0 while it is. It will stop after *a* reached 0.
+
+### For Loops:
+
+- A for loop runs a piece of code a specific amount of times.
+
+##### Example 1:
+
+```
+  
