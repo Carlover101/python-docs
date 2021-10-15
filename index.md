@@ -19,6 +19,11 @@
 
 [Functions:](https://carlover101.github.io/python-docs/#functions)
 
+[Files:](https://carlover101.github.io/python-docs/#files)
+
+[Importing Libraries:](https://carlover101.github.io/python-docs/#importing-libraries)
+
+#### The source file can be found at [this link](https://carlover101.github.io/python-docs/index.md)
 
 ## Data Types:
 
@@ -335,4 +340,36 @@
     f.write(line + "Hello!")
 ```
 
-- In this example, "w" is used to signify that 
+- In this example, "w" is used to signify that the user wants to write to the file.
+  - The program takes each line and adds "Hello!" to the end and writes it to the end of the file.
+
+## Importing Libraries
+
+- Importing libraries in Python gives the user many more options to work with that are not normally possible with them.
+  - Libraries are imported using **import** and then the library name, such as **time** or **os**, which are some of the more commonly used.
+
+##### Example 1:
+
+```
+  import time
+
+  print(f"Current time: {time.time()})
+  time.sleep(1)
+  print(f"Time 1 second later: {time.time()}")
+```
+- In this example, the **time** library is imported and used to display the current time and wait one second before displaying the time again.
+
+##### Example 2:
+
+```
+  from time import sleep
+  from os import system as sys
+
+  print("Hi)
+  sleep(1)
+  sys("clear")
+  print("Bye")
+```
+
+- This example shows the use of importing specific functions from libraries, **sleep** in this case, and naming those imported libraries, turning **system** into **sys**.
+  - This is jsut a simple example of the many libraries that can be used in Python.
