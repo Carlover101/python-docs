@@ -16,6 +16,10 @@
 [Loops:](https://carlover101.github.io/python-docs/#loops)
 - [While Loops](https://carlover101.github.io/python-docs/#while-loops)
 - [For Loops](https://carlover101.github.io/python-docs/#for-loops)
+
+[Functions:](https://carlover101.github.io/python-docs/#functions)
+
+
 ## Data Types:
 
 ### Strings:
@@ -230,7 +234,7 @@
 
 ### While Loops:
 
-- A while loop is used to run the same peice of code as many times as something is true.
+- A while loop is used to run the same piece of code as many times as something is true.
 
 ##### Example 1:
 
@@ -259,4 +263,76 @@
 ##### Example 1:
 
 ```
-  
+  number = 10
+
+  for i in range(number):
+    print(i)
+```
+
+- This example uses the range function of the for loop to run the piece of code the number of times specified in the parantheses.
+
+##### Example 2:
+
+```
+  list1 = ["str1","str2","str3"]
+
+  for item in list1:
+    print(item):
+```
+
+- In this example, the for loop is assigning the variable *item* to the corresponding item in *list1* and printing it.
+
+## Functions:
+
+-  A function is a variable or a memorable name that can be referenced at a later time to run a piece of code.
+
+##### Example 1:
+
+```
+  def function1():
+    print("This is a function.")
+    print("This function does two things in one line!")
+
+  function1()
+```
+
+- This example defines the function at the beginning, and then runs it at the end.
+
+##### Example 2:
+
+```
+  def function1(word1,word2):
+    print(f"Normal: {word1} {word2}")
+    print(f"Backwards: {word2} {word1})
+
+  function1("Green","Giraffe")
+```
+
+- In this example, the function is defined as usual, but it also requires the input of two varibles that are used in the code as shown above.
+
+## Files:
+
+- Python can be used to sort through text files and read and change lines in those files.
+
+##### Example 1:
+
+```
+  f = open("file.txt")
+
+  for line in f:
+    if "the" in line.lower():
+      print("The word 'the' appear in the file.")
+```
+
+- This example just goes through the text file line by line, and if the word "the" appears in the line, it will print the selected string.
+
+##### Example 2:
+
+```
+  f = open("file.txt", "w")
+
+  for line in f:
+    f.write(line + "Hello!")
+```
+
+- In this example, "w" is used to signify that 
