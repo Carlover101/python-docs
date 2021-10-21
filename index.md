@@ -10,7 +10,7 @@
 [Variables:](https://carlover101.github.io/python-docs/#variables)
 
 [Conditional Statements:](https://carlover101.github.io/python-docs/#conditional-statements)
-- [If, Else Statements](https://carlover101.github.io/pgython-docs/#if-else-statements)
+- [If, Else Statements](https://carlover101.github.io/python-docs/#if-else-statements)
 - [Try and Except Statements](https://carlover101.github.io/python-docs/#try-and-except-statements)
 
 [Loops:](https://carlover101.github.io/python-docs/#loops)
