@@ -70,7 +70,7 @@
   print(a / 2)
   print(b / 2)
 ```
-- *a* will give you an error because Python thinks you are trying to divide a string. But, *b* will print 2 because it is an integer and functions as so.
+- *print(a / 2)* will give you an error because Python thinks you are trying to divide a string. But, *b* will print 2 because it is an integer and functions as so.
 
 ### Floats:
 
@@ -81,7 +81,7 @@
 ```
   a = "1.5"
   b = int(a)
-  c = flaot(a)
+  c = float(a)
 ```
 - In this example, *b* will not assign, but error out because the int() function does not take decimals, and *c* will turn the string "1.5" into 1.5.
 
