@@ -372,4 +372,4 @@
 ```
 
 - This example shows the use of importing specific functions from libraries, **sleep** in this case, and naming those imported libraries, turning **system** into **sys**.
-  - This is jsut a simple example of the many libraries that can be used in Python.
+  - This is just a simple example of the many libraries that can be used in Python.
